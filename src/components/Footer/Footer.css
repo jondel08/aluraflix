@@ -1,0 +1,15 @@
+footer {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  height: 40px; 
+  background-color: #333;
+  padding: 15px; 
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+}
+
+.logo-footer {
+  max-height: 20px;
+}

@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  background-color: #192c52;
+  color: white;
+  padding: 15px;
+  gap: 20px;
+   align-items: center;
+  justify-content: space-between; 
+}
+
+.btn {
+  border: none;
+  color: gray;
+  padding: 14px 28px;
+  cursor: pointer;
+  border-radius: 5px;
+  letter-spacing: 1px;
+   box-shadow: inset 0 0 0 0 #5C79A7;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.btn-container{
+   display: flex;
+   gap: 20px;
+}
+
+.logo{
+   max-height: 30px; 
+}

@@ -1,0 +1,39 @@
+.video-card {
+  border: 2px solid;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1rem;
+  width: 300px;
+  background-color: #333;
+  color: #fff;
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+}
+
+.video-info {
+  padding: 1rem;
+}
+
+.video-info h3 {
+  margin-top: 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: #666;
+}
